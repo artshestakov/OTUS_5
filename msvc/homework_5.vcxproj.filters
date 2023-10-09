@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\MainWindow.cpp" />
+    <ClInclude Include="..\src\circle.h" />
+    <ClInclude Include="..\src\ishape.h" />
+    <ClInclude Include="..\src\MainWindow.h" />
+    <ClInclude Include="..\src\observer.h" />
+    <ClInclude Include="..\src\square.h" />
+    <ClInclude Include="..\src\controller.h" />
+    <ClInclude Include="..\src\model.h" />
+    <ClInclude Include="..\src\stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\ishape.h" />
-    <ClInclude Include="..\src\square.h" />
-    <ClInclude Include="..\src\circle.h" />
-    <ClInclude Include="..\src\MainWindow.h" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\MainWindow.cpp" />
+    <ClCompile Include="..\src\controller.cpp" />
+    <ClCompile Include="..\src\model.cpp" />
   </ItemGroup>
 </Project>

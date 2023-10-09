@@ -1,8 +1,6 @@
 #pragma once
-#ifndef _ISHAPE_H_INCLUDED
-#define _ISHAPE_H_INCLUDED
 //-----------------------------------------------------------------------------
-#include <string>
+#include "stdafx.h"
 //-----------------------------------------------------------------------------
 class IShape
 {
@@ -36,8 +34,8 @@ public:
 
     virtual void draw() = 0;
     virtual void erase() = 0;
-    virtual void export(const std::string& file_path) = 0;
-    virtual void import(const std::string& file_path) = 0;
+    virtual void exp(const std::string& file_path) = 0;
+    virtual void imp(const std::string& file_path) = 0;
 
     //! Изменить цвет рамки фигуры
     //! \param color цвет
@@ -110,4 +108,3 @@ protected:
     // some attribute of the shape...
 };
 //-----------------------------------------------------------------------------
-#endif

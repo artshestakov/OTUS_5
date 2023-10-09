@@ -10,6 +10,10 @@ add_executable(homework_5
 	src/ishape.h
 	src/circle.h
 	src/square.h
+	src/controller.cpp
+	src/model.cpp
+	src/observer.h
+	src/stdafx.h
 )
 
 target_include_directories(homework_5

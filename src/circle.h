@@ -1,6 +1,4 @@
 #pragma once
-#ifndef _CIRCLE_H_INCLUDED
-#define _CIRCLE_H_INCLUDED
 //-----------------------------------------------------------------------------
 #include "ishape.h"
 //-----------------------------------------------------------------------------
@@ -16,26 +14,25 @@ public:
     
     void draw() override
     {
-        //Draw a circle...
+        std::cout << "Draw a circle" << std::endl;
     }
 
     void erase() override
     {
-        //Erase a circle
+        std::cout << "Erase a curcle" << std::endl;
     }
 
-    void export(const std::string& file_path) override
+    void exp(const std::string& file_path) override
     {
-        //Save to the file
+        std::cout << "Export a circle to file " << file_path << std::endl;
     }
 
-    void import(const std::string& file_path) override
+    void imp(const std::string& file_path) override
     {
-        //Restore from the file
+        std::cout << "Import a circle to file " << file_path << std::endl;
     }
 
 private:
     size_t m_Radius;
 };
 //-----------------------------------------------------------------------------
-#endif

@@ -19,14 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\MainWindow.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\src\circle.h" />
+    <ClInclude Include="..\src\controller.h" />
     <ClInclude Include="..\src\ishape.h" />
     <ClInclude Include="..\src\MainWindow.h" />
+    <ClInclude Include="..\src\model.h" />
+    <ClInclude Include="..\src\observer.h" />
     <ClInclude Include="..\src\square.h" />
+    <ClInclude Include="..\src\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\controller.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\MainWindow.cpp" />
+    <ClCompile Include="..\src\model.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
